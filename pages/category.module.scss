@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    min-height: 100vh;
+  }
+  
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr); 
+    grid-gap: 2rem;
+    width: 100%;
+    
+  }
+  
+  
+  .not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 90vh;
+  }
+  

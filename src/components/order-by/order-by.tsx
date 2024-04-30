@@ -48,7 +48,7 @@ export const OrderBy = () => {
         role="button"
         tabIndex={0}
       >
-        <span>Order by</span>
+       <h3> <span>Order by</span></h3>
         <ArrowDownIcon />
       </div>
       {showModal && (

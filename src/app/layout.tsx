@@ -1,3 +1,4 @@
+
 import { Suspense } from "react";
 import { Header } from "core/components/header/header";
 import Footer from "core/components/footer/Footer";
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+      
         <LocalContextProvider>
           <Header />
           <Suspense fallback={<Loading />}>{children}</Suspense>

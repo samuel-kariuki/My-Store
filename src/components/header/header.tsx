@@ -18,7 +18,7 @@ export const Header = () => {
         Home
       </Link>
 
-      <Link href={"/"} className={styles["nav-link"]}>
+      <Link href={"/category"} className={styles["nav-link"]}>
         Category
       </Link>
         

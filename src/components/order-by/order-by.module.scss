@@ -18,7 +18,7 @@
     position: absolute;
     top: 8rem;
     right: 5rem;
-    z-index: 1;
+    z-index: 999;
     border: solid 1px $bg-primary;
     background-color: $bg-secondary;
     width: fit-content;

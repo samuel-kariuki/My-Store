@@ -48,7 +48,7 @@ export const Header = () => {
               <span className={styles["nav-toggle__hamburger"]}>&#9776;</span>
             )}
           </button>
-          <SearchInput className={styles["search-input"]} />
+          
         </div>
       </div>
     </header>
